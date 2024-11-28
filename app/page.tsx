@@ -7,7 +7,7 @@ import dynamic from 'next/dynamic'
 import Link from 'next/link'
 import { toast } from "./use-toast"
 
-const ChatInterface = dynamic(() => import('@/components/ChatInterface'), {
+const ChatInterface = dynamic(() => import('./ChatInterface'), {
   loading: () => <p>Loading...</p>,
   ssr: false
 })
