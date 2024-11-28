@@ -1,11 +1,11 @@
 'use client'
 
 import { useState, useEffect, useRef, useCallback } from 'react'
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
+import { Button } from "./button"
+import { Input } from "./input"
+import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "./card"
 import { MessageCircle, Video, Mic, MicOff, Send, SkipForward } from 'lucide-react'
-import { toast } from "@/components/ui/use-toast"
+import { toast } from "./use-toast"
 import { ErrorBoundary } from 'react-error-boundary'
 
 type Message = {
