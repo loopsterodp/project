@@ -5,7 +5,7 @@ import { Button } from "./button"
 import { Checkbox } from "./checkbox"
 import dynamic from 'next/dynamic'
 import Link from 'next/link'
-import { toast } from "@/components/ui/use-toast"
+import { toast } from "./use-toast"
 
 const ChatInterface = dynamic(() => import('@/components/ChatInterface'), {
   loading: () => <p>Loading...</p>,
