@@ -1,8 +1,8 @@
 'use client'
 
 import { useState } from 'react'
-import { Button } from "@/components/ui/button"
-import { Checkbox } from "@/components/ui/checkbox"
+import { Button } from "./button"
+import { Checkbox } from "./checkbox"
 import dynamic from 'next/dynamic'
 import Link from 'next/link'
 import { toast } from "@/components/ui/use-toast"
