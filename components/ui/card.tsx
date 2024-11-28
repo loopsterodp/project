@@ -17,3 +17,9 @@ export const CardContent = ({ children }) => (
     {children}
   </div>
 );
+
+export const CardFooter = ({ children }) => (
+  <div className="card-footer">
+    {children}
+  </div>
+);
